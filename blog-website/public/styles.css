@@ -10,16 +10,21 @@ body {
     margin-top: 20px;
   }
   
-  a {
-    display: block;
-    width: 200px;
-    margin: 20px auto;
-    text-align: center;
-    text-decoration: none;
-    padding: 10px;
+  .new-post-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    display: inline-block;
+    padding: 10px 20px;
     background-color: #333;
     color: white;
+    text-decoration: none;
     border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .new-post-btn:hover {
+    background-color: #555;
   }
   
   div {

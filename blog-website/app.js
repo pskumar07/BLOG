@@ -5,7 +5,8 @@ const bodyParser = require('body-parser');
 const app = express();
 
 // Connect to MongoDB
-mongoose.connect('your-mongodb-connection-string', { useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect('mongodb://localhost:27017/blog-website', { useNewUrlParser: true, useUnifiedTopology: true });
+
 
 // Set EJS as templating engine
 app.set('view engine', 'ejs');
